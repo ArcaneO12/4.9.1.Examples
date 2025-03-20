@@ -10,9 +10,11 @@ public class Performer {
         age = 16;
     }
 
-    public Performer(String n, int a) {
+    public Performer(String n, int a, String h, String agent) {
         name = n;
         age = a;
+        hometown = h;
+        this.agent = agent;
     }
 
     public String getName() {

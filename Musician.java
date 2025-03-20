@@ -11,8 +11,8 @@ class Musician extends Performer {
         instrument = inst;
     }
 
-    public Musician(String n, int a, String inst) {
-        super(n, a);
+    public Musician(String inst, String n, int a, String h, String agent) {
+        super(n, a, h, agent);
         instrument = inst;
     }
 

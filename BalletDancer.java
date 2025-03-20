@@ -2,6 +2,12 @@ class BalletDancer extends Dancer {
     private Object balletShoes;
 
     public BalletDancer(Object balletShoeType) {
+        super();
+        balletShoes = balletShoeType;
+    }
+
+    public BalletDancer(Object balletShoeType, int size) {
+        super(size);
         balletShoes = balletShoeType;
     }
 
